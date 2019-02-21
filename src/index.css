@@ -1,11 +1,27 @@
+html {
+  font-size: 62.5%;
+} /* =10px */
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Regular.otf");
+  src: local("Ilisarniq");
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Bold.otf");
+  src: local("Ilisarniq");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Ilisarniq;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
 }
 
 code {
