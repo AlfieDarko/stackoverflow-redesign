@@ -51,6 +51,7 @@ export const Container = styled("div")`
   flex-wrap: no-wrap;
   justify-content: space-between;
   border-bottom: 1px solid lightgray;
+  background-color: white;
 `;
 
 export const item = styled.div``;
@@ -73,5 +74,25 @@ export const QuestionBtn = styled("button")`
 
   i {
     padding-right: 1rem;
+  }
+`;
+
+export const ProfileIcons = styled("div")`
+  padding-right: 2rem;
+  color: lightgrey;
+`;
+
+export const ProfilePic = styled("div")`
+  img {
+    height: 5rem;
+    width: auto;
+    border-radius: 50%;
+  }
+`;
+
+export const ProfileArrow = styled("div")`
+  i {
+    padding-left: 1rem;
+    color: lightgrey;
   }
 `;

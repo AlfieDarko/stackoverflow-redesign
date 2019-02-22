@@ -6,9 +6,13 @@ import {
   HeaderWrapperRight,
   SearchBarItem,
   InputStyled,
-  QuestionBtn
+  QuestionBtn,
+  ProfileIcons,
+  ProfilePic,
+  ProfileArrow
 } from "./styled.js";
 import { LogoStyled } from "./logo/styled.js";
+import pic from "../../images/FscSjUV__400x400.jpg";
 
 const Header = () => {
   return (
@@ -42,9 +46,24 @@ const Header = () => {
 
         <HeaderWrapperRight>
           <QuestionBtn>
-            <i class="fa fa-plus-circle" aria-hidden="true" />Ask A Question
+            <i class="fa fa-plus-circle" aria-hidden="true" />
+            Ask A Question
           </QuestionBtn>
-          <span> Profile Info</span>
+
+          <ProfileIcons>
+            <i class="fas fa-award" />
+          </ProfileIcons>
+
+          <ProfileIcons>
+            <i class="far fa-comment-alt" />
+          </ProfileIcons>
+
+          <ProfilePic>
+            <img src={pic} alt="" />
+          </ProfilePic>
+          <ProfileArrow>
+            <i class="fas fa-caret-down" />
+          </ProfileArrow>
         </HeaderWrapperRight>
       </Container>
     </>
