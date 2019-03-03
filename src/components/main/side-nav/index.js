@@ -46,7 +46,7 @@ const SideNav = () => {
           <span>Your answers</span>
         </li>
         <li>
-          <Briefcase size={19} />
+          <Settings size={19} />
 
           <span>Settings</span>
         </li>

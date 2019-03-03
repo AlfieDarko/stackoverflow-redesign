@@ -5,14 +5,64 @@ html {
 @font-face {
   font-family: Ilisarniq;
   src: url("./fonts/Ilisarniq-Regular.otf");
-  src: local("Ilisarniq");
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Italic.otf");
+  font-style: italic;
 }
 
 @font-face {
   font-family: Ilisarniq;
   src: url("./fonts/Ilisarniq-Bold.otf");
-  src: local("Ilisarniq");
   font-weight: bold;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Demi.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-DemiItalic.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Black.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-BlackItalic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Ilisarniq;
+  src: url("./fonts/Ilisarniq-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
 }
 
 body {
@@ -22,6 +72,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+  overflow: hidden;
 }
 
 code {

@@ -12,8 +12,9 @@ export const SideNavContainer = styled("div")`
   padding-top: 4.5rem;
   width: 30rem;
   height: 100vh;
-  border-right: 1px solid lightgrey;
   background-color: white;
+  position: sticky;
+  /* top: 20px; */
 `;
 
 export const Menu = styled("ul")`

@@ -1,14 +1,19 @@
 import React from "react";
 import SideNav from "./side-nav/index";
-import { Container } from "./styled.js";
+import Body from "./body";
+import { Container, MidBodyWrapper, RightBodyWrapper } from "./styled.js";
 const Main = () => {
   return (
     <div>
       <Container>
         <SideNav />
-        <div>Body PlaceHolder</div>
-
-        <div>SidePanel Placeholder</div>
+        <MidBodyWrapper>
+          <Body Title={"Top Questions"} />
+        </MidBodyWrapper>
+        <RightBodyWrapper>
+          {/* <Body /> */}
+          Posts
+        </RightBodyWrapper>
       </Container>
     </div>
   );
