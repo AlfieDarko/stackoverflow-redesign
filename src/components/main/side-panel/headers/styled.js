@@ -1,17 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  display: flex;
-  border: 1px solid lightgrey;
-  /* width: 30rem; */
-  display: block;
-  margin: 3rem;
-  padding: 2rem;
-  width: 29rem;
-  background-color: white;
-  border-radius: 0.5rem;
-`;
-
 export const Title = styled.div`
   font-size: 1.8rem;
 `;

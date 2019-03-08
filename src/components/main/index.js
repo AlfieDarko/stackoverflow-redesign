@@ -1,5 +1,6 @@
 import React from "react";
 import SideNav from "./side-nav/index";
+import SidePanel from "./side-panel";
 import Body from "./body";
 import { Container, MidBodyWrapper, RightBodyWrapper } from "./styled.js";
 const Main = () => {
@@ -11,8 +12,7 @@ const Main = () => {
           <Body Title={"Top Questions"} />
         </MidBodyWrapper>
         <RightBodyWrapper>
-          {/* <Body /> */}
-          Posts
+          <SidePanel />
         </RightBodyWrapper>
       </Container>
     </div>
